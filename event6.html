@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<title>JavaScript Events</title>
+
+
+<script>
+
+function changebgcolor()
+{
+  var clr = document.getElementById('color').value
+  //alert(clr)
+  document.body.style.backgroundColor = clr
+}
+
+</script>
+
+</head>
+
+<body>
+
+Enter Color<input type="color" name="color" id="color"><br><br>
+
+<input type="button" value="Change" onclick="changebgcolor()">
+
+</body>
+
+</html>

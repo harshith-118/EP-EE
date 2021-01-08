@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>JavaScript Events</title>
+
+
+<script>
+
+function changetxtcolor()
+{
+  var clr = document.getElementById('color').value
+  document.getElementById('txt').style.color = clr
+}
+
+</script>
+
+</head>
+
+<body>
+
+  <h3 id="txt">K L University</h3>
+
+Enter Color<input type="color" name="color" id="color"><br><br>
+
+<input type="button" value="Change" onclick="changetxtcolor()">
+
+</body>
+</html>

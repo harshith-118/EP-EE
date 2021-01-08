@@ -1,0 +1,561 @@
+<html>
+    <head>
+        <title>
+            program1-JS
+        </title>
+        <script>
+                    /*var name="covid"
+                    var num = 100
+                    var sum = 150.23
+                    var booleanvalue = true
+                    var num1
+                    document.writeln("<pre>")
+                    document.writeln(typeof(name))
+                    document.writeln(typeof(num))
+                    document.writeln(typeof(sum))
+                    document.writeln(typeof(booleanvalue))
+                    document.writeln(typeof(num1))
+                    document.writeln("</pre>")*/
+
+                    /*var a,b,c,d;
+                    a = 12*5
+                    b = "covid" + 19
+                    c = 12 * "5"
+                    d = 12 * "hello"
+                    e = 19 * "klu10"
+                    document.writeln(a+"<br>");
+                    document.writeln(b+"<br>")
+                    document.writeln(c+"<br>")
+                    document.writeln(d+"<br>")//NaN - not a number
+                    document.writeln(e+"<br>")//NaN*/
+                    
+                    /*document.writeln(parseInt("covid19")+"<br>")
+                    document.writeln(parseFloat("12.25abc")+"<br>")
+                    document.writeln(parseInt("12.25")+"<br>")
+                    document.writeln(parseInt("19covid")+"<br>")*/
+                    
+                    /*var name; //prompt on the browser method
+                    name  = window.prompt("Enter Name","harshith");
+                    document.writeln("<h3>"+name+"</h3>");*/
+
+                    /*var a;
+
+                    a = parseInt(prompt("Enter Value",0))
+                    document.writeln("<h3>"+a+"</h3>")*/ 
+                    
+                    /*var a;//HTML CAN'T BE USED HERE BECAUSE IT CAN'T BE APPLIED ON POPUP BOXES
+
+                    a=parseInt(prompt("Enter value",0))
+                    window.alert(a);*/
+                    
+                    /*if(window.confirm("DID YOU LIKE THIS SESSION"))
+                    {
+                        alert("YES")
+                    }
+                    else
+                    {
+                        alert("No 😔")
+                    }*/
+
+                    /*var n;
+                    n= parseInt([prompt("enter a value",0)])//n=-2
+                    if(n<0)
+                    {
+                        n = -n
+                        alert(n)
+                    }*/
+
+                    /*var a,b
+                    a= parseInt([prompt("enter a value",0)])
+                    b= parseInt([prompt("enter a value",0)])
+                    if(a>b)
+                    {
+                        alert(a +"is greater than"+ b)
+                    }
+                    else
+                    {
+                        alert(b+"is greater than"+a)
+                    }*/
+
+                    /*n= parseInt([prompt("enter a value",0)])
+                    if(n%2==0)
+                    {
+                        alert(n+" is even")
+                    }
+                    else
+                    {
+                        alert(n+ " is odd")
+                    }*/
+
+                    /*var a,b,c
+                    a= parseInt([prompt("enter a value",0)])
+                    b= parseInt([prompt("enter a value",0)])
+                    c= parseInt([prompt("enter a value",0)])
+
+                    if(a>b)
+                    {
+                        if(a>c)
+                        {
+                            alert(a+ " is big")
+                        }
+                        else
+                        {
+                            alert(b+ " is big")
+                        }
+                    }
+                    else
+                    {
+                        if(b>c)
+                        {
+                            alert(b+" is big")
+                        }
+                        else
+                        {
+                            alert(c+" is big")
+                        }
+                    }*/
+
+                    /*var a,b,c
+                    a= parseInt([prompt("enter a value",0)])
+                    b= parseInt([prompt("enter a value",0)])
+                    c= parseInt([prompt("enter a value",0)])
+
+                    if(a>b && a>c)
+                    {
+                        alert(a+" is big")
+                    }
+                    else if(b>a && b>c)
+                    {
+                        alert(b+" is big")
+                    }
+                    else
+                    {
+                        alert(c+" is big")
+                    }*/
+
+                    /*var n;
+                    n = parseInt(prompt("Enter Value",0))
+
+                    for(i=1;i<n;i++)
+                    document.writeln("<font color='red'>"+i+"</font><br>")*/
+
+                    /*var n;
+                    n = parseInt(prompt("Enter Value",0))
+                    i=0
+                    while(i<=n)
+                    {
+                        document.writeln(i+"<br>")
+                        i++;
+                    }*/
+
+                    /*var n;
+                    n = parseInt(prompt("Enter Value",0))
+
+                    for(i=1;i<=n;i++)
+                    {
+                        if(i==10)
+                        {
+                            continue
+                        }
+                        else
+                        {
+                            document.writeln(i+"<br>")
+                        }
+                    }*/
+
+                    /*var n;
+                    n = parseInt(prompt("Enter Value",0))
+
+                    for(i=1;i<=n;i++)
+                    {
+                        if(i==10)
+                        {
+                            break
+                        }
+                        else
+                        {
+                            document.writeln(i+"<br>")
+                        }
+                    }*/
+
+                    /*var n;
+                    n = parseInt(prompt("Enter a value",0))
+                    i=1
+                    do
+                    {
+                        document.writeln(i+"<br>")
+                        i++
+                    }while(i<=n);*/
+
+                    /*var n;
+                    n=parseInt(prompt("Enter a value",0))
+                    for(i=1;i<=n;i++)
+                    {
+                        if(i%5==0)
+                        {
+                            document.writeln("surya"+"<br>")
+                        }
+                        else
+                        {
+                            document.writeln(i+"<br>")
+                        }
+                    }*/
+                    /*var n;
+                    n=parseInt(prompt("Enter a value for the multiplication table",2))
+                    for(i=1;i<=10;i++)
+                    {
+                        document.writeln(n+" * "+i+" = "+n*i+"<br>")
+                    }*/
+                    /*var n;
+                    n=parseInt(prompt("Enter a value for the multiplication table",2))
+                    for(i=1;i<=10;i++)
+                    {
+                        //document.writeln(n+" * "+i+" = "+n*i+"<br>")
+                        document.writeln("<table border='1' bgcolor='aqua'>")
+
+                        document.writeln("<tr>")
+                        document.writeln("<td>")
+                        document.writeln(n+" * "+i+" = "+n*i+"<br>")
+                        document.writeln("</td>")
+                        document.writeln("</tr>")
+                        document.writeln("</table>")
+                    }*/
+                    /*var n;
+                    n=parseInt(prompt("Enter a value for the multiplication table",2))
+                    document.writeln("<table border='1' bgcolor='aqua'>")
+                    for(i=1;i<=10;i++)
+                    {
+                        //document.writeln(n+" * "+i+" = "+n*i+"<br>")
+                        document.writeln("<tr><td>"+n+" * "+i+" = "+n*i+"<br>"+"</td></tr>")
+                    }
+                    document.writeln("</table>")*/
+                    /*var a=new Array();
+
+                    var n,sum=0;
+                    n=parseInt(prompt("Enter Array Size",3))
+
+                    for(i=0;i<n;i++)
+                    {
+                        a[i] = parseInt(prompt("Enter Array Value"))
+                    }
+
+                    for(i=0;i<n;i++)
+                    {
+                        document.writeln(a[i]+"<br>")
+                        sum=sum+a[i];
+                    }
+                    document.writeln("<marquee>Sum of elements of array is "+sum+"<br></marquee>")
+                    document.writeln("Avg of elements in array is "+sum/n+"<br>")*/
+
+                    
+                    /*var a=new Array(2);
+                    for(i=0;i<2;i++)
+                    {
+                        a[i]=new Array();
+                    }
+
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                            a[i][j] = parseInt(prompt("Enter Matrix Element",0))
+                        }
+                    }
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }*/
+
+                    /*var a=new Array(2);
+                    var b=new Array(2);
+                    for(i=0;i<2;i++)
+                    {
+                        a[i]=new Array();
+                    }
+                    for(i=0;i<2;i++)
+                    {
+                        b[i]=new Array();
+                    }
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                            a[i][j] = parseInt(prompt("Enter A Matrix Element",0))
+                        }
+                    }
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                            b[i][j] = parseInt(prompt("Enter  B Matrix Element",0))
+                        }
+                    }
+                    document.writeln("A Matrix"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }
+                    document.writeln("B Matrix"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(b[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }
+                    document.writeln("ADDITION OF 2 2D MATRICES"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[i][j]+b[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }
+                    document.writeln("SUBRACTION OF 2 2D MATRICES"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[i][j]-b[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }*/
+
+                    /*var a=new Array(2);
+                    for(i=0;i<2;i++)
+                    {
+                        a[i]=new Array();
+                    }
+
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                            a[i][j] = parseInt(prompt("Enter Matrix Element",0))
+                        }
+                    }
+                    document.writeln("given matrix"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }
+                     document.writeln("given matrix's transpose"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[j][i]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }*/
+
+                    /*var a=new Array(2);
+                    var sum=0;
+                    for(i=0;i<2;i++)
+                    {
+                        a[i]=new Array();
+                    }
+
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                            a[i][j] = parseInt(prompt("Enter Matrix Element",0))
+                        }
+                    }
+                    document.writeln("given matrix"+"<br>")
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                          document.writeln(a[i][j]+" ")  
+                        }
+                        document.writeln("<br>")
+                    }
+                    for(i=0;i<2;i++)
+                    {
+                        for(j=0;j<2;j++)
+                        {
+                            if(i==j)
+                            {
+                                sum=sum+a[i][j]
+                            }
+                        }
+                    }
+                    document.writeln("Trace "+sum+"<br>")*/
+
+                    /*function type1()
+                    {
+                        x=10,y=20;
+                        document.writeln(x+y)
+                    }
+
+                    add()*/
+
+                    /*function type2(x,y)
+                    {
+                        
+                        document.writeln(x+y)
+                    }
+
+                    type2(10,20)*/
+
+                    /*function type3()
+                    {
+                        x=10,y=20
+                        return x+y
+                    }
+
+                    document.writeln(type3())*/
+
+                    /*function type4(x,y)
+                    {
+                        return x+y
+                    }
+
+                    document.writeln(type4(10,20))*/
+
+                   /*function factorial(x) 
+                   {
+                        if (x == 0) 
+                        {
+                            return 1;
+                        }
+                        else 
+                        {
+                            return x * factorial(x - 1);   
+                        }
+                    }
+                    var num = parseInt(prompt('Enter a positive number: '))   
+                    document.writeln("factorial of the given number is "+factorial(num)+"<br>")*/
+
+                    /*function fibonacci(num) {
+                        if(num < 2) {
+                            return num;
+                        }
+                        else {
+                            return fibonacci(num-1) + fibonacci(num - 2);
+                        }
+                    }
+
+                    var num = parseInt(prompt('Enter a positive number: '))
+                    document.writeln("fibonacci of the given number is "+fibonacci(num))*/
+
+                    
+                    /*document.writeln(Math.min(2,1,0)+"<br>")
+                    document.writeln(Math.max(2,1,0)+"<br>")
+                    document.writeln(Math.sqrt(16)+"<br>")
+                    document.writeln(Math.exp(1)+"<br>")
+                    document.writeln(Math.exp(2)+"<br>")
+                    document.writeln(Math.pow(2,4)+"<br>")
+
+                    document.writeln(Math.round(6.5)+"<br>")
+                    document.writeln(Math.floor(5.2)+"<br>")
+                    document.writeln(Math.ceil(7.3)+"<br>")
+
+                    document.writeln(Math.log(10)+"<br>")//base e
+                    document.writeln(Math.log10(5)+"<br>")
+
+                    document.writeln(Math.PI+"<br>")
+                    document.writeln(Math.abs(-2)+"<br>")
+
+                    document.writeln(Math.round(999*Math.random())+"<br>")*/
+
+                    /*var a=Math.floor(6*Math.random())+1
+                    var b=parseInt(prompt("Enter a value:"))
+
+                    if(a==b)
+                    {
+                        document.writeln(a+" Success "+b)
+                    }
+                    else
+                    {
+                        document.writeln(a+" Fail "+b)
+                    }*/
+                    
+                    /*var a=Math.round((Math.random()*99)%6+1)
+                    var b=parseInt(prompt("Enter a value:"))
+
+                    if(a==b)
+                    {
+                        document.writeln(a+" Success "+b)
+                    }
+                    else
+                    {
+                        document.writeln(a+" Fail "+b)
+                    }*/
+
+                    /*var a=new Array(10,20,30,40,50)//static array with integer values
+
+                    for(i=0;i<a.length;i++)
+                    {
+                        document.writeln(a[i]+" ")
+                    }*/
+
+                    /*var a=new Array("a","b","c","d","e")//static array with integer values
+
+                    for(i=0;i<a.length;i++)
+                    {
+                        document.writeln(a[i]+" ")
+                    }*/
+
+                    /*var size=parseInt(prompt("Enter a value:"))
+                    var b=new Array(size)
+
+                    for(i=0;i<b.length;i++)
+                    {
+                        b[i] = prompt("Enter value")
+                    }
+                    for(i=0;i<b.length;i++)
+                    {
+                        document.writeln(b[i]+" ")
+                    }*/
+
+                    //stack operations
+                    /*var size=parseInt(prompt("Enter a value:"))
+                    var a=new Array(size)
+
+                    for(i=0;i<a.length;i++)
+                    {
+                        a[i] = prompt("Enter value")
+                    }
+                    document.writeln(a+"<br>")
+
+                    document.writeln("<br>PUSH OPERATION<br>")
+                    a.push("covid19")
+                    document.writeln(a)
+
+                    document.writeln("<br>POP OPERATION<br>")
+                    a.pop()
+                    document.writeln(a)
+
+                    document.writeln("<br>SORT OPERATION<br>")
+                    a.sort()
+                    document.writeln(a)
+
+                    document.writeln("<br>REVERSE OPERATION<br>")
+                    a.reverse()
+                    document.writeln(a)*/
+
+                    
+                </script>
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

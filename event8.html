@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>JavaScript Events</title>
+
+
+<script>
+function changebgcolor(clr)
+{
+  document.getElementById('x').style.color=clr
+}
+
+</script>
+
+</head>
+
+<body>
+  <table align="center" width=40% height=20% border="3">
+    <tr align="center">
+      <td bgcolor="red" onmouseover="changebgcolor('red')" onmouseout="changebgcolor('black')">KLU</td>
+    <td bgcolor="green" onmouseover="changebgcolor('green')" onmouseout="changebgcolor('black')">SRM</td>
+      <td bgcolor="violet" onmouseover="changebgcolor('violet')" onmouseout="changebgcolor('black')">VIT</td>
+    </tr>
+  </table>
+  <br><br>
+  <h3 id='x' align="center">ENTERPRISE PROGRAMMING</h3>
+</body>
+
+</html>

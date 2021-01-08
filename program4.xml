@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+<employees>
+	<heading>EMPLOYEE RECORDS</heading>
+	<employee gender="male">
+	    <id>190030385</id>
+	    <name>D.SAI HARSHITH</name>
+	    <qualification>Middle School Graduate</qualification>
+	    <designation>B.Tech Graduate</designation>
+	</employee>
+
+	<employee gender="male">
+	    <id>190030074</id>
+	    <name>A.TANUJ</name>
+	    <qualification>Middle School Graduate</qualification>
+	    <designation>B.Tech Graduate</designation>
+	</employee>
+
+	<employee gender="female">
+	    <id>190031415</id>
+	    <name>R.JAHNAVI</name>
+	    <qualification>Middle School Graduate</qualification>
+	    <designation>B.Tech Graduate</designation>
+	</employee>
+</employees>
